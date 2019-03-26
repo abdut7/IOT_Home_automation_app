@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "729456080966",
+    "firebase_url": "https://iothome-7bce3.firebaseio.com",
+    "project_id": "iothome-7bce3",
+    "storage_bucket": "iothome-7bce3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729456080966:android:1338373e7fbc69e5",
+        "android_client_info": {
+          "package_name": "com.example.nailo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729456080966-0tc5338dt9pmkuqjabfho8359f5ggdk8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nailo",
+            "certificate_hash": "a49614548baa83702f2f4928575010d002122617"
+          }
+        },
+        {
+          "client_id": "729456080966-70vpnftc8pcuprbikd45k1itqnc9c6qk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkwi5k6AQ1x3qtNZCesd-LUXSqrgCBQYM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729456080966-70vpnftc8pcuprbikd45k1itqnc9c6qk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home_fagm">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/txtemperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Temperature" />
+
+        <TextView
+            android:id="@+id/textViewhumidity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:text="Humidity" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Switch" />
+
+        <Switch
+            android:id="@+id/Bulb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Bulb1" />
+
+        <Switch
+            android:id="@+id/Bulb12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bulb2"
+            android:layout_marginTop="20dp"/>
+
+        <Switch
+            android:id="@+id/Fan1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fan1"
+            android:layout_marginTop="20dp"/>
+
+        <Switch
+            android:id="@+id/motor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Motor"
+            android:layout_marginTop="20dp"/>
+
+
+    </LinearLayout>
+
+</FrameLayout>

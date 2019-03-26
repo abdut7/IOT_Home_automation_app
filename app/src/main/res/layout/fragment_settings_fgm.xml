@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings_fgm">
+
+    <!-- TODO: Update blank fragment layout -->
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+
+       <TextView
+
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginHorizontal="90dp"
+
+
+           android:text="Timer setting"
+           android:textSize="40dp"
+           android:gravity="center"/>
+
+       <TableLayout
+           android:layout_marginHorizontal="10dp"
+           android:layout_marginVertical="100dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           >
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_marginTop="20dp"
+               android:layout_height="wrap_content" >
+               <CheckBox
+                   android:id="@+id/chbl1"
+                   android:layout_width="wrap_content"
+                   android:layout_marginRight="20dp"
+                   android:layout_height="wrap_content"
+                   android:text="Bulb1" />
+
+               <EditText
+                   android:id="@+id/edb1hh"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:inputType="numberDecimal"
+                   android:maxLength="2"
+
+                   android:hint="HH" />
+
+               <EditText
+                   android:id="@+id/edb1mm"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:inputType="numberDecimal"
+                   android:maxLength="2"
+                   android:hint=":MM" />
+
+               <EditText
+                   android:id="@+id/edb1ss"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:inputType="numberDecimal"
+                   android:maxLength="2"
+                   android:hint=":SS" />
+
+               <Button
+                   android:id="@+id/bt1"
+                   android:layout_width="wrap_content"
+                   android:layout_marginLeft="30dp"
+                   android:layout_height="wrap_content"
+                   android:enabled="false"
+                   android:text="SET" />
+
+           </TableRow>
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_marginTop="20dp"
+               android:layout_height="wrap_content" >
+
+               <CheckBox
+                   android:id="@+id/chbl2"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginRight="20dp"
+                   android:text="Bulb2" />
+               <EditText
+                   android:id="@+id/edb2hh"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:inputType="numberDecimal"
+                   android:maxLength="2"
+                   android:hint="HH" />
+
+               <EditText
+                   android:id="@+id/edb2mm"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:inputType="numberDecimal"
+                   android:maxLength="2"
+                   android:hint=":MM" />
+
+               <EditText
+                   android:id="@+id/edb2ss"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:inputType="numberDecimal"
+                   android:maxLength="2"
+                   android:hint=":SS" />
+
+               <Button
+                   android:id="@+id/bt2"
+                   android:layout_width="wrap_content"
+                   android:layout_marginLeft="30dp"
+
+                   android:enabled="false"
+                   android:text="SET" />
+
+
+           </TableRow>
+
+           <TableRow
+               android:layout_marginTop="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent" >
+               <CheckBox
+                   android:id="@+id/chbl3"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Fan" />
+
+               <EditText
+                   android:id="@+id/edb3hh"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:inputType="numberDecimal"
+                   android:maxLength="2"
+                   android:hint="HH" />
+
+               <EditText
+                   android:id="@+id/edb3mm"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:inputType="numberDecimal"
+                   android:maxLength="2"
+                   android:hint=":MM" />
+
+               <EditText
+                   android:id="@+id/edb3ss"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:inputType="numberDecimal"
+                   android:maxLength="2"
+                   android:hint=":SS" />
+
+               <Button
+                   android:id="@+id/bt3"
+                   android:enabled="false"
+                   android:layout_width="wrap_content"
+                   android:layout_marginLeft="30dp"
+                   android:layout_height="wrap_content"
+                   android:text="SET" />
+
+           </TableRow>
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_marginTop="20dp"
+               android:layout_height="wrap_content" >
+
+               <CheckBox
+                   android:id="@+id/chmotor"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginRight="20dp"
+                   android:text="motor" />
+               <EditText
+                   android:id="@+id/edmotorhh"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:inputType="numberDecimal"
+                   android:maxLength="2"
+                   android:hint="HH" />
+
+               <EditText
+                   android:id="@+id/edmotormm"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:inputType="numberDecimal"
+                   android:maxLength="2"
+                   android:hint=":MM" />
+
+               <EditText
+                   android:id="@+id/edmotorss"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:inputType="numberDecimal"
+                   android:maxLength="2"
+                   android:hint=":SS" />
+
+               <Button
+                   android:id="@+id/btmotor"
+                   android:layout_width="wrap_content"
+                   android:layout_marginLeft="30dp"
+
+                   android:enabled="false"
+                   android:text="SET" />
+
+
+           </TableRow>
+
+       </TableLayout>
+
+
+
+
+   </LinearLayout>
+
+</FrameLayout>
